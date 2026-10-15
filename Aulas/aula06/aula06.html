@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Document</title>
-    <script scr="aula06.js" defer></script>
+    <script src="aula06.js" defer></script>
+    <link  rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1> Calculadora</h1>
+    <h1>Calculadora</h1>
 
     <input type="number" id="n1" placeholder="Digite o primeiro numero">
     <input type="number" id="n2" placeholder="Digite o segundo numero">
 
-    <button>SOMAR</button>
+    <button onclick="somar()">SOMAR</button>
+    <button onclick="subtracao()">SUBTRAIR</button>
+    <button onclick="multiplicacao()"> MULTIPLICAR</button>
+    <button onclick="divisao()">DIVIDIR</button>
 
     <p id="resultado"></p>
 </body>
+
 </html>
